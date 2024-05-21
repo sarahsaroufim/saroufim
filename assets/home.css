@@ -1,78 +1,80 @@
 body {
-    font-family: 'Helvetica', sans-serif;
-    cursor: default;
+  font-family: 'Helvetica', sans-serif;
+  cursor: default;
+  /* color: white;
+  background-color: black; */
 }
 
 a {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .project-image {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.5s ease;
+  scale: 80%;
+  position: fixed;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .project-image.show {
-    opacity: 1;
+  opacity: 1;
 }
 
 h1 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 2.3em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 
 #projects {
-    text-align: center;
-    font-size: 1.5em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10em;
-    padding-top: 8em;
-    padding-left: 3em;
-    padding-right: 3em;
-    color: lightgray;
+  text-align: center;
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5em;
+  padding-top: 10.5em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    /* height: 100vh; */
-    overflow: hidden;
-  }
-  
-  .scroll {
-    white-space: nowrap;
-    margin: 0 2em;
-  }
-  
-  .scroll div {
-    display: flex;
-  }
-  
-  .scroll p {
-    font-size: 1em;
-    font-style: italic;
-  }
-  
-  .RightToLeft {
-    animation: RightToLeft 30s infinite linear;
-  }
-  
-  @keyframes  RightToLeft {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
+  display: flex;
+  align-items: center;
+  /* height: 100vh; */
+  overflow: hidden;
+}
 
-  .space {
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    font-style: normal;
+.scroll {
+  white-space: nowrap;
+  margin: 0 2em;
+}
+
+.scroll div {
+  display: flex;
+}
+
+.scroll p {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.RightToLeft {
+  animation: RightToLeft 40s infinite linear;
+}
+
+@keyframes  RightToLeft {
+  from {
+    transform: translateX(0%);
   }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.space {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-style: normal;
+}
