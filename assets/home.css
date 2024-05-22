@@ -5,10 +5,8 @@ body {
 
 a {
   cursor: pointer;
-}
-
-a:hover {
-  font-style: italic;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 #product:hover {
@@ -83,10 +81,19 @@ h1 {
   margin-right: 2em;
 }
 
+#projects-button {
+  color: darkgray;
+}
+
 #me-button {
   margin-left: 1em;
   cursor: pointer;
-  color: darkgray;
+}
+
+#me-button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.05em;
 }
 
 .project-div {
