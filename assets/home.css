@@ -7,6 +7,13 @@ body {
 
 a {
   cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.1em;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .project-image {
@@ -24,8 +31,7 @@ h1 {
   text-align: center;
   font-weight: 600;
   font-size: 2em;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-top: 0.8em;
 }
 
 #projects {
@@ -34,15 +40,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5em;
-  padding-top: 10.5em;
+  padding-top: 11.5em;
   margin-left: 3em;
   margin-right: 3em;
 }
 
-.container {
+/* .container {
   display: flex;
   align-items: center;
-  /* height: 100vh; */
   overflow: hidden;
 }
 
@@ -77,4 +82,20 @@ h1 {
   margin-right: 0.5em;
   margin-left: 0.5em;
   font-style: normal;
+} */
+
+.text-box {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade.show {
+  opacity: 1;
 }
