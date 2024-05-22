@@ -82,18 +82,14 @@ h1 {
 }
 
 #projects-button {
-  color: darkgray;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.05em;
 }
 
 #me-button {
   margin-left: 1em;
   cursor: pointer;
-}
-
-#me-button:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3em;
-  text-decoration-thickness: 0.05em;
 }
 
 .project-div {
