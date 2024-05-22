@@ -11,9 +11,25 @@ a:hover {
   font-style: italic;
 }
 
+#product:hover {
+  color: rgb(164, 137, 243);
+}
+
+#illustration:hover {
+  color: darkgray;
+}
+
+#code:hover {
+  color: rgb(66, 255, 119);
+}
+
 .project-image {
-  scale: 80%;
   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 85%;
+  max-height: 85%;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -71,4 +87,8 @@ h1 {
   margin-left: 1em;
   cursor: pointer;
   color: darkgray;
+}
+
+.project-div {
+  position: relative;
 }
