@@ -34,22 +34,23 @@ const sentences = [
     "simply overthinking",
     "in the business of alchemy",
     "i make the best of things",
+    "someone will learn something from you",
   ];
   
-  let currentSentenceIndex = 0;
-  const sentenceElement = document.getElementById('sentence');
-  
-  function showNextSentence() {
-    sentenceElement.classList.remove('show');
-    
-    setTimeout(() => {
-      currentSentenceIndex = (currentSentenceIndex + 1) % sentences.length;
-      sentenceElement.textContent = sentences[currentSentenceIndex];
-      sentenceElement.classList.add('show');
-    }, 1000);
-  }
-  
-  sentenceElement.textContent = sentences[currentSentenceIndex];
-  sentenceElement.classList.add('show');
-  setInterval(showNextSentence, 3000); // interval duration
+let currentSentenceIndex = 0;
+const sentenceElement = document.getElementById('sentence');
+
+function showNextSentence() {
+sentenceElement.classList.remove('show');
+
+setTimeout(() => {
+    currentSentenceIndex = (currentSentenceIndex + 1) % sentences.length;
+    sentenceElement.textContent = sentences[currentSentenceIndex];
+    sentenceElement.classList.add('show');
+}, 1000);
+}
+
+sentenceElement.textContent = sentences[currentSentenceIndex];
+sentenceElement.classList.add('show');
+setInterval(showNextSentence, 3000); // interval duration
   

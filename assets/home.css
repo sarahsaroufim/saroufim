@@ -1,20 +1,15 @@
 body {
   font-family: 'Helvetica', sans-serif;
   cursor: default;
-  /* color: white;
-  background-color: black; */
 }
 
 a {
   cursor: pointer;
-  /* text-decoration: underline;
-  text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.1em; */
 }
 
-/* a:hover {
-    text-decoration: none;
-} */
+a:hover {
+  font-style: italic;
+}
 
 .project-image {
   scale: 80%;
@@ -45,45 +40,6 @@ h1 {
   margin-right: 3em;
 }
 
-/* .container {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
-.scroll {
-  white-space: nowrap;
-  margin: 0 2em;
-}
-
-.scroll div {
-  display: flex;
-}
-
-.scroll p {
-  font-size: 1em;
-  font-style: italic;
-}
-
-.RightToLeft {
-  animation: RightToLeft 40s infinite linear;
-}
-
-@keyframes  RightToLeft {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.space {
-  margin-right: 0.5em;
-  margin-left: 0.5em;
-  font-style: normal;
-} */
-
 .text-box {
   font-size: 1em;
   font-style: italic;
@@ -112,7 +68,7 @@ h1 {
 }
 
 #me-button {
-  margin-right: 1em;
+  margin-left: 1em;
   cursor: pointer;
   color: darkgray;
 }
