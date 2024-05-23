@@ -25,9 +25,11 @@ h1 {
 }
 
 #projects {
+  display: grid;
+  grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  padding-top: 5em;
+  padding-top: 4em;
 }
 
 .project-image {
@@ -88,7 +90,6 @@ h1 {
 
 #projects {
   padding-top: 11.5em;
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3em;
   padding-left: 2.55em;
