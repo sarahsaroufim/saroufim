@@ -25,6 +25,7 @@ const sentences = [
     "take me to your leader",
     "there's something i have to say",
     "black & white & gray",
+    "i'll be your mirror",
     "it was all worth it in the end",
     "même un artichaut a du cœur",
     "i'm never shy, except for today",
