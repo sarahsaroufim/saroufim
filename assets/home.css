@@ -42,7 +42,7 @@ h1 {
   text-align: center;
   font-weight: 600;
   font-size: 2em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 #projects {
@@ -50,7 +50,7 @@ h1 {
   grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  padding-top: 2.5em;
+  padding-top: 3em;
 }
 
 .project-image {
