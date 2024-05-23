@@ -25,6 +25,7 @@ const sentences = [
     "your right-hand woman",
     "take me to your leader",
     "there's something i have to say",
+    "take your time",
     "black & white & gray",
     "i'll be your mirror",
     "you don't have to tell me twice",
