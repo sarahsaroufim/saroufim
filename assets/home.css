@@ -50,8 +50,8 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   gap: 5em;
   padding-top: 11.5em;
-  margin-left: 3em;
-  margin-right: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .text-box {
