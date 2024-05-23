@@ -12,9 +12,7 @@ a {
 }
 
 #top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: none;
 }
 
 h1 {
@@ -36,26 +34,22 @@ h1 {
   display: none;
 }
 
-.text-box {
-  font-size: 1em;
-  font-style: italic;
-  margin-top: 1.5em;
-  margin-left: 2em;
-}
-
-#home-nav {
-  margin-top: 1.5em;
-  margin-right: 2em;
-}
-
-#projects-button,
-#me-button:hover {
+.projects-button,
+.me-button:hover {
   text-decoration: underline;
   text-underline-offset: 0.3em;
   text-decoration-thickness: 0.05em;
 }
 
-#me-button {
+#mobile-home-nav {
+  margin-top: 1.5em;
+  margin-right: 2em;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.me-button {
   margin-left: 1em;
   cursor: pointer;
 }
@@ -86,6 +80,32 @@ h1 {
 
 .fade.show {
   opacity: 1;
+}
+
+#mobile-home-nav {
+  display: none;
+}
+
+#top-bar {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box {
+  font-size: 1em;
+  font-style: italic;
+}
+
+#desktop-text-box {
+  margin-top: 1.5em;
+  margin-left: 2em;
+}
+
+#desktop-home-nav {
+  margin-top: 1.5em;
+  margin-right: 2em;
 }
 
 #projects {
