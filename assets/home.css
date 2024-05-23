@@ -28,8 +28,6 @@ h1 {
   text-align: center;
   font-size: 3em;
   padding-top: 5em;
-  padding-left: 3em;
-  padding-right: 3em;
 }
 
 .project-image {
@@ -93,6 +91,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3em;
+  padding-left: 2.55em;
+  padding-right: 2.55em;
 }
 
 .project-image {
