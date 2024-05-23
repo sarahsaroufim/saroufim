@@ -34,7 +34,7 @@ a {
   font-size: 1em;
   font-style: italic;
   position: absolute;
-  bottom: -39.5em;
+  bottom: -41em;
   left: 0;
 }
 
@@ -50,7 +50,7 @@ h1 {
   grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  padding-top: 3em;
+  padding-top: 3.2em;
 }
 
 .project-image {
