@@ -20,6 +20,20 @@ body {
 }
 
 #me-image {
+    display: none;
+}
+
+#me-links {
+    display: grid;
+    grid-row-gap: 1em;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 3em;
+  }
+
+@media only screen and (min-width: 1024px) {
+
+#me-image {
     display: block;
     position: fixed;
     top: 50%;
@@ -27,4 +41,19 @@ body {
     transform: translate(-50%, -50%);
     max-width: 85%;
     max-height: 85%;
+}
+
+#me-links {
+    padding-top: 11.5em;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    padding-left: 2.55em;
+    padding-right: 2.55em;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.05em;
+}
 }
