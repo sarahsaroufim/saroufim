@@ -23,7 +23,7 @@ const sentences = [
     "i actually hate waiting",
     "ask me about zelda",
     "i'm a sucker for a xylophone",
-    "let's grab coffee, i'll have a hot chocolate",
+    "i brought cookies",
     "you can have your world, i have mine",
     "of course you're invited",
     "i've never had an interesting haircut",
