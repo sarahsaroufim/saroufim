@@ -31,6 +31,7 @@ const sentences = [
     "thank you for being here",
     "text me anytime",
     "casually poetic",
+    "i can be very romantic",
     "bhebbak ya habibi",
     "so long, funny girl",
   ];
