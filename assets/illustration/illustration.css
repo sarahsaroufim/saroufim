@@ -1,28 +1,51 @@
 .projects-button {
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  .projects-button:hover,
-  .me-button:hover {
+}
+
+.projects-button:hover,
+.me-button:hover {
     text-decoration: underline;
     text-underline-offset: 0.3em;
     text-decoration-thickness: 0.05em;
-  }
+}
 
-  #table-of-contents {
-
+#table-of-contents {
     margin-top: 10em;
-  }
+}
 
-  h2 {
+h2 {
     text-align: center;
     font-size: 3em;
     padding-bottom: 2em;
-  }
+}
 
-  #illustration-projects {
+#illustration-projects {
     font-size: 2em;
     line-height: 1.5em;
+    padding-left: 1.5em;
+}
+
+#artworks-grid {
+    display: grid;
+    grid-row-gap: 6em;
+    background-color: black;
+    color: white;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+@media only screen and (min-width: 1024px) {
+
+#illustration-projects {
     padding-left: 2em;
-  }
+}
+
+#artworks-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 1em;
+    padding-right: 1em;
+    gap: 1em;
+    grid-row-gap: 6em;
+}
+}
