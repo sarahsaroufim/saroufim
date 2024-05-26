@@ -35,14 +35,14 @@ h3 {
     padding-bottom: 6em;
 }
 
-.artwork-title {
+.caption {
     padding-top: 0.5em;
     padding-left: 0.5em;
     font-size: 1.2em;
     font-style: italic;
 }
 
-#artworks-grid {
+.grid {
     display: grid;
     grid-row-gap: 6em;
     background-color: black;
@@ -64,6 +64,11 @@ h3 {
     max-width: 36em;
 }
 
+#absolut-grid {
+    color: black;
+    background-color: white;
+}
+
 @media only screen and (min-width: 1024px) {
 
 #illustration-projects {
@@ -75,12 +80,12 @@ h3 {
     font-style: italic;
 }
 
-.artwork-title {
+.caption {
     padding-left: 0;
     font-size: 1.5em;
 }
 
-#artworks-grid {
+.grid {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 1em;
     padding-right: 1em;
@@ -89,13 +94,13 @@ h3 {
     margin-bottom: 20em;
 }
 
-#artworks-grid .landscape {
+.grid .landscape {
     grid-column: span 2;
 }
 
 .information-block {
     padding-left: 2em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
     max-width: 55em;
 }
 
