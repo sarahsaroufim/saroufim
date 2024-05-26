@@ -18,6 +18,7 @@ h2 {
     text-align: center;
     font-size: 3em;
     padding-bottom: 2em;
+    color: darkgray;
 }
 
 h3 {
@@ -54,6 +55,7 @@ h3 {
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
+    max-width: 37em;
 }
 
 .project-description {
@@ -86,8 +88,12 @@ h3 {
 }
 
 .information-block {
-    font-size: 1.5em;
     padding-left: 2em;
-    max-width: 39em;
+    padding-bottom: 3em;
+    max-width: 55em;
+}
+
+.project-description {
+    font-size: 1.5em;
 }
 }
