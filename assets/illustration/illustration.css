@@ -49,6 +49,7 @@ h3 {
     color: white;
     padding-top: 6em;
     padding-bottom: 6em;
+    margin-bottom: 10em;
 }
 
 .information-block {
@@ -85,6 +86,11 @@ h3 {
     padding-right: 1em;
     gap: 1em;
     grid-row-gap: 6em;
+    margin-bottom: 20em;
+}
+
+#artworks-grid .the-sacrifice {
+    grid-column: span 2;
 }
 
 .information-block {
