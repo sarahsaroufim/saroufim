@@ -24,7 +24,7 @@ h2 {
 h3 {
     font-size: 2em;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     font-style: italic;
 }
 
@@ -79,7 +79,16 @@ h3 {
     font-style: italic;
 }
 
+.internal-link {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+}
+
 @media only screen and (min-width: 1024px) {
+
+h3 {
+    font-size: 3em;
+}
 
 #illustration-projects {
     padding-left: 2em;
@@ -117,5 +126,11 @@ h3 {
 .project-description {
     font-size: 1.5em;
     line-height: 1.3em;
+}
+
+.internal-link:hover {
+    text-decoration: none;
+    font-style: italic;
+    cursor: pointer;
 }
 }
