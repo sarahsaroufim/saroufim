@@ -62,11 +62,22 @@ h3 {
 .project-description {
     font-size: 1em;
     max-width: 36em;
+    line-height: 1.25em;
 }
 
 #absolut-grid {
     color: black;
     background-color: white;
+    padding-top: 0;
+}
+
+.line-break {
+    display: block;
+    height: 1em;
+}
+
+.emphasis {
+    font-style: italic;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -106,5 +117,6 @@ h3 {
 
 .project-description {
     font-size: 1.5em;
+    line-height: 1.3em;
 }
 }
