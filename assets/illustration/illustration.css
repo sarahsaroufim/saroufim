@@ -20,10 +20,25 @@ h2 {
     padding-bottom: 2em;
 }
 
+h3 {
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: italic;
+}
+
 #illustration-projects {
     font-size: 2em;
-    line-height: 1.5em;
+    line-height: 1.7em;
     padding-left: 1.5em;
+    padding-bottom: 6em;
+}
+
+.artwork-title {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 #artworks-grid {
@@ -35,10 +50,31 @@ h2 {
     padding-bottom: 6em;
 }
 
+.information-block {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.project-description {
+    font-size: 1em;
+    max-width: 36em;
+}
+
 @media only screen and (min-width: 1024px) {
 
 #illustration-projects {
     padding-left: 2em;
+}
+
+.content:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.artwork-title {
+    padding-left: 0;
+    font-size: 1.5em;
 }
 
 #artworks-grid {
@@ -47,5 +83,11 @@ h2 {
     padding-right: 1em;
     gap: 1em;
     grid-row-gap: 6em;
+}
+
+.information-block {
+    font-size: 1.5em;
+    padding-left: 2em;
+    max-width: 39em;
 }
 }

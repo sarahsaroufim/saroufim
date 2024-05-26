@@ -1,5 +1,9 @@
 @media only screen and (min-width: 5px) {
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Helvetica', sans-serif;
   cursor: default;
