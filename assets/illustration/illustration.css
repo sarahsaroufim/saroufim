@@ -88,6 +88,10 @@ h3 {
     border-radius: 1.8em;
 }
 
+#absolut-poster-1 {
+    display: none;
+}
+
 @media only screen and (min-width: 1024px) {
 
 h3 {
@@ -144,5 +148,9 @@ h3 {
     text-decoration: none;
     font-style: italic;
     cursor: pointer;
+}
+
+#absolut-poster-1 {
+    display: block;
 }
 }
