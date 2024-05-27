@@ -64,7 +64,7 @@ h3 {
     line-height: 1.25em;
 }
 
-#absolut-grid {
+.white-grid {
     color: black;
     background-color: white;
     padding-top: 0;
