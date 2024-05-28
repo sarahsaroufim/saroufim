@@ -44,7 +44,7 @@ body {
 }
 
 #me-links {
-    padding-top: 11.5em;
+    padding-top: 11.7em;
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
     padding-left: 2.55em;
