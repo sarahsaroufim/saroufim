@@ -101,8 +101,19 @@ h3 {
 .project-divider {
     scale: 25%;
     text-align: center;
-    opacity: 25%;
-}
+    opacity: 20%;
+    transition: opacity 0.5s, visibility 0.5s;
+  }
+
+  .project-divider.visible {
+    opacity: 20%;
+    visibility: visible;
+  }
+
+  .project-divider.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
 
 .footer-nav {
     display: flex;
