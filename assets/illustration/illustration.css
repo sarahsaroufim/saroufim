@@ -113,6 +113,31 @@ h3 {
     padding-bottom: 1em;
 }
 
+#back-to-top {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+    position: fixed;
+    bottom: 1.5em;
+    right: 0;
+    z-index: 100;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 @media only screen and (min-width: 1024px) {
 
 h3 {
@@ -200,5 +225,14 @@ h3 {
 .footer-code:hover {
     color: rgb(66, 255, 119);
     cursor: pointer;
+}
+
+#back-to-top {
+    font-size: 1.4em;
+}
+
+#back-to-top:hover {
+    background-color: white;
+    color: black;
 }
 }
