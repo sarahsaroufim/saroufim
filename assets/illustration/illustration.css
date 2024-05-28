@@ -48,7 +48,7 @@ h3 {
     background-color: black;
     color: white;
     padding-top: 6em;
-    padding-bottom: 6em;
+    /* padding-bottom: 6em; */
     /* margin-bottom: 17em; */
 }
 
@@ -101,6 +101,16 @@ h3 {
 .project-divider {
     scale: 25%;
     text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 @media only screen and (min-width: 1024px) {
