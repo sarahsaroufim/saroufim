@@ -186,4 +186,19 @@ h3 {
 .no-captions {
     grid-row-gap: 1em;
 }
+
+.footer-nav {
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+}
+
+.footer-design:hover {
+    color: rgb(164, 137, 243);
+    cursor: pointer;
+}
+
+.footer-code:hover {
+    color: rgb(66, 255, 119);
+    cursor: pointer;
+}
 }
