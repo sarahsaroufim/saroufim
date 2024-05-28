@@ -101,6 +101,7 @@ h3 {
 .project-divider {
     scale: 25%;
     text-align: center;
+    opacity: 25%;
 }
 
 .footer-nav {
