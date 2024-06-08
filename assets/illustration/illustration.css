@@ -212,7 +212,7 @@ h3 {
 
 .internal-link:hover {
     text-decoration: none;
-    font-style: italic;
+    color: darkgray;
     cursor: pointer;
 }
 

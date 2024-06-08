@@ -19,7 +19,7 @@ backToTopButton.addEventListener("click", function() {
 document.addEventListener("scroll", function() {
     const projectDividers = document.querySelectorAll('.project-divider');
     const windowHeight = window.innerHeight;
-    const threshold = 300;
+    const threshold = 250;
 
     projectDividers.forEach(divider => {
       const rect = divider.getBoundingClientRect();
