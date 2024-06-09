@@ -41,6 +41,7 @@ a {
   font-size: 1em;
   font-style: italic;
   position: absolute;
+  padding-left: 2em;
   bottom: -39.5em;
   left: 0;
 }
@@ -100,6 +101,7 @@ h1 {
 }
 
 .text-box {
+  padding-left: 0;
   position: static;
 }
 
