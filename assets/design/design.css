@@ -20,6 +20,7 @@ h2,
 
 .wrapper {
     gap: 3em;
+    margin-bottom: -7em;
 }
 
 .border-style {
