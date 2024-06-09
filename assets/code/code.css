@@ -1,4 +1,7 @@
+@media only screen and (min-width: 1024px) {
+
 h2,
 .internal-link:hover {
     color: rgb(66, 255, 119);
+}
 }
