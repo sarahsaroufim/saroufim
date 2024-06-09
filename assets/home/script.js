@@ -14,6 +14,7 @@ function hideImage(imageId) {
 // cycle sentences
 
 const sentences = [
+    "welcome to my portfolio",
     "where do i start?",
     "fix it before you break it",
     "i need a place to put all of these thoughts",
