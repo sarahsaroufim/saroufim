@@ -4,4 +4,8 @@ h2,
 .internal-link:hover {
     color: rgb(164, 137, 243);
 }
+
+.wrapper {
+    gap: 3em;
+}
 }
