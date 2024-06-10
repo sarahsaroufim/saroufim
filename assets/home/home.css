@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  cursor: pointer;
+  cursor: none;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -71,9 +71,13 @@ h1 {
   text-decoration-thickness: 0.05em;
 }
 
+.projects-button {
+  cursor: none;
+}
+
 .me-button {
   margin-left: 1em;
-  cursor: pointer;
+  cursor: none;
 }
 
 .project-div {

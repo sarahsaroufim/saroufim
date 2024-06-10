@@ -1,6 +1,6 @@
 .projects-button {
     text-decoration: none;
-    cursor: pointer;
+    cursor: none;
 }
 
 .projects-button:hover,
@@ -140,7 +140,7 @@ h3 {
     background-color: black;
     color: white;
     border: none;
-    cursor: pointer;
+    cursor: none;
     font-size: 1em;
     font-style: italic;
 }
@@ -169,7 +169,7 @@ h3 {
 }
 
 .content:hover {
-    cursor: pointer;
+    cursor: none;
     font-style: italic;
 }
 
@@ -217,7 +217,7 @@ h3 {
 .internal-link:hover {
     text-decoration: none;
     color: darkgray;
-    cursor: pointer;
+    cursor: none;
 }
 
 #absolut-poster-1 {
@@ -240,17 +240,17 @@ h3 {
 
 .footer-design:hover {
     color: rgb(164, 137, 243);
-    cursor: pointer;
+    cursor: none;
 }
 
 .footer-code:hover {
     color: rgb(66, 255, 119);
-    cursor: pointer;
+    cursor: none;
 }
 
 .footer-illustration:hover {
     color: darkgray;
-    cursor: pointer;
+    cursor: none;
 }
 
 #back-to-top:hover {

@@ -5,7 +5,6 @@ body {
 
 .projects-button {
     text-decoration: none;
-    cursor: pointer;
 }
 
 .me-button,
@@ -13,10 +12,6 @@ body {
   text-decoration: underline;
   text-underline-offset: 0.3em;
   text-decoration-thickness: 0.05em;
-}
-
-.me-button {
-    cursor: default;
 }
 
 #me-image {
