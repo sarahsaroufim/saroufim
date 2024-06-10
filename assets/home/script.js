@@ -15,6 +15,7 @@ function hideImage(imageId) {
 
 const sentences = [
     "welcome to my portfolio",
+    "i made this website for you",
     "where do i start?",
     "fix it before you break it",
     "i need a place to put all of these thoughts",
