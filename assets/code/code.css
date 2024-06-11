@@ -9,4 +9,9 @@ h2,
 .internal-link:hover {
     color: rgb(66, 255, 119);
 }
+
+.grid-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 }
