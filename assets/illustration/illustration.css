@@ -266,17 +266,7 @@ h3 {
     margin-bottom: 0;
 }
 
-body, html {
-    cursor: none;
-}
-
 .custom-cursor {
-    position: absolute;
-    width: 1em;
-    height: 1em;
     background-color: darkgray;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 10000;
 }
 }
