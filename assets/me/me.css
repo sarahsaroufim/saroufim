@@ -51,4 +51,18 @@ body {
     text-underline-offset: 0.2em;
     text-decoration-thickness: 0.05em;
 }
+
+body, html {
+    cursor: none;
+}
+
+.custom-cursor {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-color: yellow;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10000;
+}
 }

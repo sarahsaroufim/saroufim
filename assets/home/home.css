@@ -132,4 +132,18 @@ h1 {
 .project-image.show {
   opacity: 1;
 }
+
+body, html {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+}
 }
