@@ -44,7 +44,7 @@ h2,
 
 .wrapper {
     gap: 3em;
-    margin-bottom: -7em;
+    /* margin-bottom: -7em; */
 }
 
 .wrapper-2 {
@@ -61,5 +61,13 @@ h2,
 
 .bottom-space {
     margin-bottom: 0;
+}
+
+.drop-caption {
+    padding-bottom: 0;
+}
+
+.bottom-space-2 {
+    margin-bottom: 5em;
 }
 }
