@@ -32,6 +32,11 @@
 
 @media only screen and (min-width: 1024px) {
 
+.white-grid {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 h2,
 .internal-link:hover {
     color: rgb(164, 137, 243);
@@ -47,7 +52,7 @@ h2,
 }
 
 .bigger-gap {
-    gap: 3em;
+    gap: 2em;
 }
 
 #white-image {
