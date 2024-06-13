@@ -1,3 +1,7 @@
+h2 {
+    color: rgb(66, 255, 119);
+}
+
 .grid-padding {
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -5,7 +9,6 @@
 
 @media only screen and (min-width: 1024px) {
 
-h2,
 .internal-link:hover {
     color: rgb(66, 255, 119);
 }
