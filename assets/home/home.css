@@ -118,6 +118,7 @@ h1 {
   gap: 3em;
   padding-left: 2.55em;
   padding-right: 2.55em;
+  z-index: 1000;
 }
 
 .project-image {
@@ -130,6 +131,7 @@ h1 {
   max-height: 85%;
   opacity: 0;
   transition: opacity 0.5s ease;
+  z-index: -1000;
 }
 
 .project-image.show {
