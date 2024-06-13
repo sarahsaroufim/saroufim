@@ -23,6 +23,7 @@ body {
     grid-row-gap: 1em;
     text-align: center;
     font-size: 3em;
+    padding-top: 4em;
   }
 
 @media only screen and (min-width: 1024px) {
@@ -44,6 +45,7 @@ body {
     padding-left: 2.55em;
     padding-right: 2.55em;
     z-index: 1000;
+    padding-top: 0;
     position: fixed;
     top: 86%;
 }
