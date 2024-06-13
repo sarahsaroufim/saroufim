@@ -5,7 +5,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-y: hidden;
 }
 
 body {
@@ -13,15 +12,7 @@ body {
   cursor: none;
 }
 
-.home-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh; /* Ensure the main takes full viewport height */
-  position: relative;
-}
+
 
 a {
   cursor: none;
@@ -58,7 +49,7 @@ a {
   font-style: italic;
   position: absolute;
   padding-left: 2em;
-  bottom: -39.5em;
+  bottom: -45em;
   left: 0;
 }
 
@@ -73,12 +64,7 @@ h1 {
   grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  /* padding-top: 3.33em; */
-  position: fixed;
-  /* top: 29.8%; */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 4em;
 }
 
 .project-image {
@@ -107,6 +93,20 @@ h1 {
 
 @media only screen and (min-width: 1024px) {
 
+html {
+  overflow-y: hidden;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Ensure the main takes full viewport height */
+  position: relative;
+}
+
 #design:hover {
   color: var(--purple);
 }
@@ -133,12 +133,10 @@ h1 {
 }
 
 #projects {
-  /* padding-top: 11.7em; */
   grid-template-columns: repeat(3, 1fr);
   gap: 5em;
-  /* padding-left: 2.55em;
-  padding-right: 2.55em; */
   z-index: 1000;
+  position: fixed;
   top: 86%;
 }
 
