@@ -1,4 +1,7 @@
-@media only screen and (min-width: 5px) {
+:root {
+  --purple: rgb(164, 137, 243);
+  --green: rgb(66, 255, 119);
+}
 
 html {
   scroll-behavior: smooth;
@@ -57,7 +60,7 @@ h1 {
   grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  padding-top: 3em;
+  padding-top: 3.33em;
 }
 
 .project-image {
@@ -82,7 +85,6 @@ h1 {
 
 .project-div {
   position: relative;
-}
 }
 
 @media only screen and (min-width: 1024px) {
