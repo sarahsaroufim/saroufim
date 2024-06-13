@@ -243,12 +243,12 @@ h3 {
 }
 
 .footer-design:hover {
-    color: rgb(164, 137, 243);
+    color: var(--purple);
     cursor: none;
 }
 
 .footer-code:hover {
-    color: rgb(66, 255, 119);
+    color: var(--green);
     cursor: none;
 }
 

@@ -1,5 +1,5 @@
 h2 {
-    color: rgb(66, 255, 119);
+    color: var(--green);
 }
 
 .grid-padding {
@@ -10,7 +10,7 @@ h2 {
 @media only screen and (min-width: 1024px) {
 
 .internal-link:hover {
-    color: rgb(66, 255, 119);
+    color: var(--green);
 }
 
 .grid-padding {
@@ -23,6 +23,6 @@ h2 {
 }
 
 .custom-cursor {
-    background-color: rgb(66, 255, 119);
+    background-color: var(--green);
 }
 }

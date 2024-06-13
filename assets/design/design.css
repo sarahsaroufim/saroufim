@@ -1,5 +1,5 @@
 h2 {
-    color: rgb(164, 137, 243);
+    color: var(--purple);
 }
 
 .prototype-style {
@@ -42,7 +42,7 @@ h2 {
 }
 
 .internal-link:hover {
-    color: rgb(164, 137, 243);
+    color: var(--purple);
 }
 
 .wrapper {
@@ -75,6 +75,6 @@ h2 {
 }
 
 .custom-cursor {
-    background-color: rgb(164, 137, 243);
+    background-color: var(--purple);
 }
 }

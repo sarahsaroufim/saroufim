@@ -90,7 +90,7 @@ h1 {
 @media only screen and (min-width: 1024px) {
 
 #design:hover {
-  color: rgb(164, 137, 243);
+  color: var(--purple);
 }
 
 #illustration:hover {
@@ -98,7 +98,7 @@ h1 {
 }
 
 #code:hover {
-  color: rgb(66, 255, 119);
+  color: var(--green);
 }
 
 #top-bar {
