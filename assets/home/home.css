@@ -12,7 +12,15 @@ body {
   cursor: none;
 }
 
-
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Ensure the main takes full viewport height */
+  position: relative;
+}
 
 a {
   cursor: none;
@@ -64,7 +72,6 @@ h1 {
   grid-row-gap: 1em;
   text-align: center;
   font-size: 3em;
-  padding-top: 4em;
 }
 
 .project-image {
@@ -95,16 +102,6 @@ h1 {
 
 html {
   overflow-y: hidden;
-}
-
-.home-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh; /* Ensure the main takes full viewport height */
-  position: relative;
 }
 
 #design:hover {
