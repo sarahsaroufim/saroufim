@@ -1,3 +1,7 @@
+html {
+    overflow-y: visible;
+}
+
 .projects-button {
     text-decoration: none;
     cursor: none;

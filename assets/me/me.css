@@ -23,7 +23,9 @@ body {
     grid-row-gap: 1em;
     text-align: center;
     font-size: 3em;
-    padding-top: 3.33em;
+    /* padding-top: 3.33em; */
+    position: fixed;
+    top: 29.8%;
   }
 
 @media only screen and (min-width: 1024px) {
@@ -40,12 +42,13 @@ body {
 }
 
 #me-links {
-    padding-top: 11.7em;
+    /* padding-top: 11.7em; */
     grid-template-columns: repeat(3, 1fr);
-    gap: 3em;
+    gap: 4em;
     padding-left: 2.55em;
     padding-right: 2.55em;
     z-index: 1000;
+    top: 86%;
 }
 
 .link:hover {
