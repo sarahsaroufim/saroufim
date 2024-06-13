@@ -33,7 +33,7 @@ a {
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   position: relative;
 }
 
@@ -102,6 +102,7 @@ h1 {
 #top-bar {
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 1em;
 }
 
 .text-box {
