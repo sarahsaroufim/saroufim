@@ -172,6 +172,10 @@ h3 {
     font-size: 2.5em;
 }
 
+.img-width {
+    width: 100%;
+}
+
 #illustration-projects {
     padding-left: 2em;
 }
