@@ -31,7 +31,6 @@ h2 {
 
 h3 {
     font-size: 2em;
-    /* padding-top: 1em; */
     padding-bottom: 2em;
     font-style: italic;
 }
@@ -40,7 +39,6 @@ h3 {
     font-size: 2em;
     line-height: 1.7em;
     padding-left: 1.5em;
-    /* padding-bottom: 6em; */
 }
 
 .caption {
@@ -57,7 +55,6 @@ h3 {
     color: white;
     padding-top: 6em;
     padding-bottom: 6em;
-    /* margin-bottom: 17em; */
 }
 
 .information-block {
@@ -76,7 +73,6 @@ h3 {
     color: black;
     background-color: white;
     padding-top: 0;
-    /* margin-bottom: -5em; */
 }
 
 .line-break {
@@ -113,15 +109,15 @@ h3 {
     transition: opacity 0.5s, visibility 0.5s;
   }
 
-  .project-divider.visible {
+.project-divider.visible {
     opacity: 20%;
     visibility: visible;
-  }
+}
 
-  .project-divider.hidden {
+.project-divider.hidden {
     opacity: 0;
     visibility: hidden;
-  }
+}
 
 .footer-nav {
     display: flex;
@@ -196,12 +192,7 @@ h3 {
     padding-right: 2em;
     gap: 1em;
     grid-row-gap: 6em;
-    /* margin-bottom: 26em; */
 }
-
-/* .white-grid {
-    margin-bottom: 20em;
-} */
 
 .wrapper {
     display: flex;
@@ -276,5 +267,38 @@ h3 {
 
 .custom-cursor {
     background-color: darkgray;
+}
+}
+
+@media only screen and (min-width: 2000px) {
+
+h2 {
+    font-size: 5em;
+    padding-bottom: 4em;
+}
+
+h3,
+#illustration-projects {
+    font-size: 3.5em;
+}
+
+.project-description,
+.caption {
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+
+.information-block {
+    max-width: 75em;
+}
+
+.project-divider {
+    scale: 40%;
+    padding-top: 20em;
+    padding-bottom: 20em;
+}
+
+#back-to-top {
+    font-size: 1.8em;
 }
 }

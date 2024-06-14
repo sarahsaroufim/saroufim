@@ -70,3 +70,10 @@ body, html {
     z-index: 10000;
 }
 }
+
+@media only screen and (min-width: 2000px) {
+    
+#me-links {
+    font-size: 5em;
+}
+}
