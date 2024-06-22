@@ -36,6 +36,10 @@ h2 {
 
 @media only screen and (min-width: 1024px) {
 
+.top-margin {
+    margin-top: 5em;
+}
+
 .white-grid {
     padding-left: 2em;
     padding-right: 2em;
