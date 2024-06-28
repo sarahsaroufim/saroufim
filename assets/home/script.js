@@ -15,7 +15,6 @@ function hideImage(imageId) {
 
 const sentences = [
     "i'm a product designer & artist",
-    "(award-winning)",
     "welcome to my portfolio",
     "i made this website for you",
     "where do i start?",
