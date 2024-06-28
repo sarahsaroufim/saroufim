@@ -3,8 +3,6 @@
 const sentences = [
     "my name is sarah saroufim",
     "i'm from lebanon",
-    "i'm a product designer",
-    "i'm an artist",
     "i really care",
     "i'm in new york right now",
     "my favorite color is yellow",
