@@ -5,8 +5,8 @@
         <title>saroufim</title>
         <meta property="description" content="This is my portfolio.">
         <meta name="author" content="Sarah Saroufim">
-        <link rel="icon" type="png" sizes="32x32" href="assets/favicon/32.png">
-		<link rel="icon" type="png" sizes="16x16" href="assets/favicon/16.png">
+        <link rel="icon" type="png" sizes="32x32" href="assets/favicon/32-design.png">
+		<link rel="icon" type="png" sizes="16x16" href="assets/favicon/16-design.png">
         <meta content="white" name="theme-color">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,7 @@
         <link href="assets/design/design.css" rel="stylesheet">
         <script defer src="assets/illustration/illustration.js"></script>
         <script defer src="assets/cursor/cursor.js"></script>
+        <script defer src="assets/design/slideshow.js"></script>
     </head>
     <body>
         <div id="top-bar">
@@ -32,387 +33,784 @@
         </header>
         <main>
             <button id="back-to-top">back to top</button>
-            <section id="table-of-contents">
+            <div id="table-of-contents">
                 <h2>design</h2>
                 <ol id="illustration-projects">
                     <li><a href="#drop" class="content">drop</a></li>
-                    <li><a href="#youtube" class="content">youtube feature</a></li>
                     <li><a href="#tutor-orial" class="content">tutor orial</a></li>
                     <li><a href="#smash" class="content">smash gym</a></li>
-                    <!-- <li><a href="#procreate"class="content">procreate feature</a></li> -->
                 </ol>
-            </section>
-            <section id="drop">
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-3.png" alt="Description...">
-                </div>
-                <div class="information-block">
-                    <h3>drop</h3>
-                    <p class="project-description">
-                        Drop is a drawing app designed to help artists warm-up, get inspired, and loosen up a little–encouraging them to benefit from the joy and therapy of drawing regularly, even if quickly or “badly”.
-                        <span class="line-break"></span>
-                        People can respond to a daily curated prompt by making a Drop (drawing alone) or by diving into a Pool (drawing with everyone).
-                        <span class="line-break"></span>
-                        This is the capstone project I made for my Masters in Product Design at The New School's Parsons School of Design. I had the honor of being selected to present it at <a href="https://aigany.org/event/design-spotlightfresh-grad-2024/" target="_blank" class="internal-link">AIGA's Fresh Grad</a> event in June of 2024. 
-                        <span class="line-break"></span>
-                        You can watch a recording of that presentation <a href="#fresh-grad-video" class="internal-link">below</a> for a 5min rundown of Drop.
-                    </p>
-                </div>
+            </div>
+
+            <!-- DROP -->
+            <section>
+                <section>
+                    <h3 id="drop">drop</h3>
+                    <div class="project-banner">
+                        <img src="assets/design/drop/drop-banner.png" alt="Description...">
+                    </div>
+                    <div class="intro-info">
+                        <div>
+                            <h4>Introduction</h4>
+                            <p class="project-intro">
+                                Drop is a drawing app designed to help artists warm-up, get inspired, and loosen up a little; encouraging them to benefit from the joy and therapy of drawing regularly, even if quickly or roughly.
+                                <span class="line-break"></span>
+                                Drop offers daily curated art prompts that users can respond to by making a drop (drawing alone) or by diving into a pool (drawing with everyone).
+                                <span class="line-break"></span>
+                                I wanted to make something that could help artists reconnect with the part of them that fell in love with drawing, before the personal, financial and social pressures. 
+                            </p>
+                        </div>
+                        <div class="scope-timeline-agenda">
+                            <div>
+                                <h4>Scope</h4>
+                                <p>UX research, User testing, Interaction design, Illustration, Brand identity, Presentation</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Timeline</h4>
+                                <p>Jan 2024 - May 2024</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Agenda</h4>
+                                <ol class="agenda">
+                                    <li id="yellow-bullet"><span class="agenda-text"><a href="#drop-research" class="internal-link">Research</a></span></li>
+                                    <li id="green-bullet"><span class="agenda-text"><a href="#drop-prototypes" class="internal-link">Prototypes & user tests</a></span></li>
+                                    <li id="pink-bullet"><span class="agenda-text"><a href="#drop-branding" class="internal-link">Branding</a></span></li>
+                                    <li id="purple-bullet"><span class="agenda-text"><a href="#drop-product" class="internal-link">Final product</a></span></li>
+                                    <li id="blue-bullet"><span class="agenda-text"><a href="#drop-presentation" class="internal-link">Presentation</a></span></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div id="drop-research" class="anchor-space"></div>
+                    <h5>Research</h5>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides1">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="assets/design/drop/interviews-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides1">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="assets/design/drop/interviews-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides1">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="assets/design/drop/interviews-3.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1,1)">&#9664;</a>
+                            <a class="next" onclick="plusSlides(1,1)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Interviews</h4>
+                            <p>
+                                I interviewed six artists about their habits and philosophies around drawing and the experience of being an artist today. My role was to stay impartial, help the interviewee feel at ease and ask open-ended questions in order to gather reliable evidence for my research.
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides2">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="assets/design/drop/insight-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="assets/design/drop/insight-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="assets/design/drop/insight-3.png" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="assets/design/drop/insight-4.png" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="assets/design/drop/insight-5.png" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="assets/design/drop/insight-6.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1,2)">&#9664;</a>
+                            <a class="next" onclick="plusSlides(1,2)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Insights</h4>
+                            <p>
+                                My conversations with these thoughtful artists unveiled numerous pain points and interesting discoveries, from which I extracted six meta insights.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow slides-3">
+                        <div class="slideshow-container">
+                            <div class="mySlides3">
+                                <div class="numbertext">1 / 2</div>
+                                <img src="assets/design/drop/hmw.png" style="width:100%">
+                            </div>
+                            <div class="mySlides3">
+                                <div class="numbertext">2 / 2</div>
+                                <img src="assets/design/drop/hmw-sketches.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1,3)">&#9664;</a>
+                            <a class="next" onclick="plusSlides(1,3)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Opportunities</h4>
+                            <p>
+                                I chose to focus on three of the meta insights and reframed them as actionable statements, identifying opportunities for intervention and problems that my product could help solve. I began sketching ideas based on those statements.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div id="drop-prototypes" class="anchor-space"></div>
+                    <h5 id="h5-prototypes">Prototypes & user tests</h5>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides4">
+                                <div class="numbertext black-slide-controls">1 / 5</div>
+                                <img src="assets/design/drop/low-fi-p-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides4">
+                                <div class="numbertext black-slide-controls">2 / 5</div>
+                                <img src="assets/design/drop/low-fi-p-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides4">
+                                <div class="numbertext black-slide-controls">3 / 5</div>
+                                <img src="assets/design/drop/low-fi-p-3.png" style="width:100%">
+                            </div>
+                            <div class="mySlides4">
+                                <div class="numbertext black-slide-controls">4 / 5</div>
+                                <img src="assets/design/drop/low-fi-p-4.png" style="width:100%">
+                            </div>
+                            <div class="mySlides4">
+                                <div class="numbertext black-slide-controls">5 / 5</div>
+                                <img src="assets/design/drop/low-fi-p-5.png" style="width:100%">
+                            </div>
+                            <a class="prev black-slide-controls" onclick="plusSlides(-1,4)">&#9664;</a>
+                            <a class="next black-slide-controls" onclick="plusSlides(1,4)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Low-fidelity prototypes</h4>
+                            <p>
+                                I prepared five simple prototypes of various products with the aim of testing vastly different features to see what ideas will resonate with users and respond to their needs the most.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides5">
+                                <div class="numbertext black-slide-controls">1 / 2</div>
+                                <img src="assets/design/drop/low-fi-users.png" style="width:100%">
+                            </div>
+                            <div class="mySlides5">
+                                <div class="numbertext black-slide-controls">2 / 2</div>
+                                <img src="assets/design/drop/low-fi-synthesis.png" style="width:100%">
+                            </div>
+                            <a class="prev black-slide-controls" onclick="plusSlides(-1,5)">&#9664;</a>
+                            <a class="next black-slide-controls" onclick="plusSlides(1,5)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>User tests 1</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow slides-3">
+                        <div class="slideshow-container">
+                            <div class="mySlides6">
+                                <div class="numbertext black-slide-controls">1 / 4</div>
+                                <img src="assets/design/drop/low-fi-selected.png" style="width:100%">
+                            </div>
+                            <div class="mySlides6">
+                                <div class="numbertext black-slide-controls">2 / 4</div>
+                                <img src="assets/design/drop/low-fi-feedback-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides6">
+                                <div class="numbertext black-slide-controls">3 / 4</div>
+                                <img src="assets/design/drop/low-fi-feedback-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides6">
+                                <div class="numbertext black-slide-controls">4 / 4</div>
+                                <img src="assets/design/drop/low-fi-feedback-3.png" style="width:100%">
+                            </div>
+                            <a class="prev black-slide-controls" onclick="plusSlides(-1,6)">&#9664;</a>
+                            <a class="next black-slide-controls" onclick="plusSlides(1,6)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Selected prototypes & key takeaways</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides7">
+                                <div class="numbertext black-slide-controls">1 / 4</div>
+                                <img src="assets/design/drop/mid-fi-p-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides7">
+                                <div class="numbertext black-slide-controls">2 / 4</div>
+                                <img src="assets/design/drop/mid-fi-p-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides7">
+                                <div class="numbertext black-slide-controls">3 / 4</div>
+                                <img src="assets/design/drop/mid-fi-p-3.png" style="width:100%">
+                            </div>
+                            <div class="mySlides7">
+                                <div class="numbertext black-slide-controls">4 / 4</div>
+                                <img src="assets/design/drop/mid-fi-p-4.png" style="width:100%">
+                            </div>
+                            <a class="prev black-slide-controls" onclick="plusSlides(-1,7)">&#9664;</a>
+                            <a class="next black-slide-controls" onclick="plusSlides(1,7)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Mid-fidelity prototypes</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides8">
+                                <div class="numbertext">1 / 2</div>
+                                <img src="assets/design/drop/mid-fi-users.png" style="width:100%">
+                            </div>
+                            <div class="mySlides8">
+                                <div class="numbertext">2 / 2</div>
+                                <img src="assets/design/drop/mid-fi-synthesis.png" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1,8)">&#9664;</a>
+                            <a class="next" onclick="plusSlides(1,8)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>User tests 2</h4>
+                            <p>I conducted another round of testing</p>
+                        </div>
+                    </div>
+                    <div class="text-slideshow slides-3">
+                        <div class="slideshow-container">
+                            <div class="mySlides9">
+                                <div class="numbertext black-slide-controls">1 / 3</div>
+                                <img src="assets/design/drop/mid-fi-selected.png" style="width:100%">
+                            </div>
+                            <div class="mySlides9">
+                                <div class="numbertext black-slide-controls">2 / 3</div>
+                                <img src="assets/design/drop/mid-fi-feedback-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides9">
+                                <div class="numbertext black-slide-controls">3 / 3</div>
+                                <img src="assets/design/drop/mid-fi-feedback-2.png" style="width:100%">
+                            </div>
+                            <a class="prev black-slide-controls" onclick="plusSlides(-1,9)">&#9664;</a>
+                            <a class="next black-slide-controls" onclick="plusSlides(1,9)">&#9654;</a>
+                        </div> 
+                        <div class="more-info">
+                            <h4>Selected prototype & key takeaways</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </div>
+                </section>
+                <div id="drop-branding" class="anchor-space"></div>
+                <h5 id="h5-branding">Branding</h5>
                 <ul class="grid white-grid">
-                    <li class="landscape">
-                        <video controls class="border-style img-width" id="fresh-grad-video">
-                            <source src="assets/design/drop/fresh-grad-video.mp4" type="video/mp4">
+                    <li>
+                        <img src="assets/design/drop/drop-name.png" style="width:100%">
+                        <div class="more-info lower-caption">
+                            <h4>Name</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/design/drop/drop-logo.gif" style="width:100%">
+                        <div class="more-info lower-caption">
+                            <h4>Logo</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/design/drop/drop-colors.png" style="width:100%">
+                        <div class="more-info lower-caption">
+                            <h4>Colors</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/design/drop/drop-themes.gif" style="width:100%">
+                        <div class="more-info lower-caption">
+                            <h4>Color themes</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/design/drop/drop-icon.png" style="width:100%">
+                        <div class="more-info lower-caption">
+                            <h4>App icon</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <video autoplay loop muted playsinline>
+                            <source src="assets/design/drop/drop-widget.mov" type="video/mp4">
                         </video>
-                          <p class="caption">my presentation for drop at aiga ny's fresh grad event</p>
+                        <div class="more-info lower-caption">
+                            <h4>Pool widget</h4>
+                            <p>I'm still writing this...</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="assets/design/drop/drop-mockup.png" alt="" class="img-width">
-                        <p class="caption">designed for a digital tablet</p>
-                    </li>
-                    <li>
-                        <img src="assets/design/drop/drop-logo.gif" alt="" class="img-width">
-                        <p class="caption">drop logo</p>
-                    </li>
-                    <!-- <li>
-                        <img src="assets/design/drop/fresh-grad-1.png" alt="" class="img-width">
-                        <p class="caption">annual fresh grad event by aiga ny</p>
-                    </li>
-                    <li>
-                        <img src="assets/design/drop/fresh-grad-2.png" alt="" class="img-width">
-                        <p class="caption">social media campaign by aiga ny</p>
-                    </li> -->
-                    <!-- <div class="wrapper">
+                </ul>
+                <div id="drop-product" class="anchor-space"></div>
+                <h5 id="h5-product">Final product</h5>
+                <div class="project-banner">
+                    <img src="assets/design/drop/drop-banner-2.png" alt="Description...">
+                </div>
+                <div class="text-slideshow even-more-space">
+                    <div class="slideshow-container">
+                        <div>
+                            <img src="assets/design/drop/system-map.png" style="width:100%">
+                        </div>
+                    </div> 
+                    <div class="more-info">
+                        <h4>System map</h4>
+                        <p>I'm still writing this...</p>
+                    </div>
+                </div>
+                <ul>
+                    <div class="vids-wrap slides-3">
+                        <li>
+                            <video autoplay loop muted playsinline class="prototype-style">
+                                <source src="assets/design/drop/drop-pool-switch.mov" type="video/mp4">
+                            </video>
+                            <div class="more-info no-padding">
+                                <h4>Drop to Pool switch</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
+                        </li>
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/theme-changer.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">home–theme changer</p>
-                        </li>
-                        <li>
-                            <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/drop-pool-switch.mov" type="video/mp4">
-                            </video>
-                            <p class="caption drop-caption">home–drop to pool switch</p>
-                        </li>
-                        <li>
-                            <img src="assets/design/drop/halloween-prompt.png" alt="" class="prototype-style">
-                            <p class="caption">seasonal prompts, special edition color</p>
+                            <div class="more-info no-padding">
+                                <h4>Theme changer</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <div class="wrapper">
-                        <li>
+                    <div class="vids-wrap slides-3 single-vid">
+                        <li class="visibility">
+                            <img src="assets/design/drop/blank.png" alt="">
+                        </li>
+                        <li class="vid-text-wrap">
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/make-drop.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">make a drop</p>
+                            <div class="more-info no-padding">
+                                <h4>Make a Drop</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
+                        <li class="visibility">
+                            <img src="assets/design/drop/blank.png" alt="">
+                        </li>
+                    </div>
+                    <div class="vids-wrap slides-3">
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/drop-post.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">post your drop</p>
+                            <div class="more-info no-padding">
+                                <h4>Post your Drop</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
-                            <img src="assets/design/drop/drop-celebration.png" alt="" class="prototype-style">
-                            <p class="caption">drop celebration</p>
+                            <img class="prototype-style" src="assets/design/drop/drop-celebration.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Drop post celebration</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <div class="wrapper">
+                    <div class="vids-wrap slides-3">
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/vertical.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">vertical drop feed</p>
+                            <div class="more-info no-padding">
+                                <h4>Browse Drops</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/horizontal.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">horizontal drop feed</p>
-                        </li>
-                        <li>
-                            <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/scribble.mov" type="video/mp4">
-                            </video>
-                            <p class="caption">draw anywhere</p>
+                            <div class="more-info no-padding">
+                                <h4>Browse Drops enlarged</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <div class="wrapper">
-                        <li>
+                    <div class="vids-wrap slides-3 single-vid">
+                        <li class="visibility">
+                            <img src="assets/design/drop/blank.png" alt="">
+                        </li>
+                        <li class="vid-text-wrap">
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/pool-inside.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">dive in a pool</p>
+                            <div class="more-info no-padding">
+                                <h4>Dive in a Pool</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
+                        <li class="visibility">
+                            <img src="assets/design/drop/blank.png" alt="">
+                        </li>
+                    </div>
+                    <div class="vids-wrap slides-3">
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
                                 <source src="assets/design/drop/pool-outside.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">pool outside view</p>
+                            <div class="more-info no-padding">
+                                <h4>Pool live canvas</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
-                            <img src="assets/design/drop/pool-celebration.png" alt="" class="prototype-style">
-                            <p class="caption">dive celebration</p>
+                            <img class="prototype-style" src="assets/design/drop/pool-celebration.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Pool dive celebration</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <div class="wrapper">
+                    <div id="wrap-3" class="vids-wrap">
                         <li>
-                            <img src="assets/design/drop/medals-default.png" alt="" class="prototype-style">
-                            <p class="caption drop-caption">medals default</p>
+                            <img class="prototype-style" src="assets/design/drop/medals-default.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Medals default</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
-                            <img src="assets/design/drop/medals-progress.png" alt="" class="prototype-style">
-                            <p class="caption drop-caption">medals in progress</p>
+                            <img class="prototype-style" src="assets/design/drop/medals-progress.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Medals in progress</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
-                            <img src="assets/design/drop/dropper-progress.png" alt="" class="prototype-style">
-                            <p class="caption">dropper medal</p>
-                        </li>
-                    </div> -->
-                    <div class="wrapper">
-                        <li>
-                            <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/drop-pool-switch.mov" type="video/mp4">
-                            </video>
-                            <p class="caption drop-caption">home–drop to pool switch</p>
-                        </li>
-                        <li>
-                            <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/make-drop.mov" type="video/mp4">
-                            </video>
-                            <p class="caption drop-caption">make a drop</p>
-                        </li>
-                        <li>
-                            <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/pool-inside.mov" type="video/mp4">
-                            </video>
-                            <p class="caption">dive in a pool</p>
+                            <img class="prototype-style" src="assets/design/drop/dropper-progress.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Dropper medal</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <div class="wrapper">
-                        <li>
-                            <img src="assets/design/drop/drop-celebration.png" alt="" class="prototype-style">
-                            <p class="caption drop-caption">drop celebration</p>
-                        </li>
+                    <div class="vids-wrap slides-3">
                         <li>
                             <video autoplay loop muted playsinline class="prototype-style">
-                                <source src="assets/design/drop/horizontal.mov" type="video/mp4">
+                                <source src="assets/design/drop/scribble.mov" type="video/mp4">
                             </video>
-                            <p class="caption drop-caption">horizontal drop feed</p>
+                            <div class="more-info no-padding">
+                                <h4>Draw anywhere</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                         <li>
-                            <img src="assets/design/drop/medals-progress.png" alt="" class="prototype-style">
-                            <p class="caption">medals in progress</p>
+                            <img class="prototype-style" src="assets/design/drop/halloween-prompt.png" alt="">
+                            <div class="more-info no-padding">
+                                <h4>Seasonal prompts</h4>
+                                <p>I'm still writing this...</p>
+                            </div>
                         </li>
                     </div>
-                    <li>
-                        <img src="assets/design/drop/drop-identity.png" alt="" class="border-style img-width">
-                        <p class="caption">drop identity</p>
-                    </li>
-                    <li>
-                        <img src="assets/design/drop/drop-research.gif" alt="" class="border-style img-width">
-                        <p class="caption">research, prototypes & user tests</p>
-                    </li>
                 </ul>
+                <section>
+                    <div id="drop-presentation" class="anchor-space"></div>
+                    <h5 id="h5-presentation">Presentation</h5>
+                    <div class="text-slideshow">
+                        <div class="slideshow-container">
+                            <video controls="" id="fresh-grad-video">
+                                <source src="assets/design/drop/fresh-grad-video.mp4" type="video/mp4">
+                            </video>
+                        </div> 
+                        <div class="more-info">
+                            <h4>AIGA NY Fresh Grad</h4>
+                            <p>
+                                I had the honor of being selected to represent my program and showcase Drop at <a href="https://aigany.org/event/design-spotlightfresh-grad-2024/" target="_blank" class="internal-link">AIGA NY's Fresh Grad</a> event in June of 2024. Here's a recording of that presentation for a 5min rundown of this project!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-banner">
+                        <img src="assets/design/drop/drop-banner-3.png" alt="Description...">
+                    </div>
+                    <div class="more-info fin-caption">
+                        <h4>Fin.</h4>
+                        <p>I'm still writing this...</p>
+                    </div>
+                </section>
             </section>
-            <section id="youtube">
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-4.png" alt="Description...">
-                </div>
-                <div class="information-block">
-                    <h3>youtube feature</h3>
-                    <p class="project-description">
-                        This is a proposal for a new feature on Youtube that would allow you to download or create PDF versions of any video on the platform. This feature can be a means to create more accessible content on Youtube and could also manifest as a creative community-building exercise.
-                        <span class="line-break"></span>
-                        You can browse user-made PDF versions of any video on Youtube, or create a PDF version of any video on Youtube.
-                    </p>
-                </div>
-                <ul class="grid white-grid">
-                    <div class="wrapper wrapper-2">
-                        <li>
-                            <img src="assets/design/youtube/yt-1.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-2.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-3.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-4.png" alt="" class="prototype-style">
-                        </li>
+
+            <div class="project-divider less-space">
+                <img src="assets/illustration/project-dividers/project-divider-5.png" alt="Description...">
+            </div>
+
+            <!-- TUTOR ORIAL -->
+            <section>
+                <section>
+                    <h3 id="tutor-orial">tutor orial</h3>
+                    <div class="project-banner">
+                        <img src="assets/design/tutor-orial/tutor-orial-banner.png" alt="Description...">
                     </div>
-                    <div class="wrapper wrapper-2">
-                        <li>
-                            <img src="assets/design/youtube/yt-5.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-6.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-7.png" alt="" class="prototype-style bottom-space">
-                        </li>
-                        <li>
-                            <img src="assets/design/youtube/yt-8.png" alt="" class="prototype-style">
-                        </li>
+                    <div class="intro-info">
+                        <div>
+                            <h4>Introduction</h4>
+                            <p class="project-intro">
+                                Tutor Orial is...
+                                <span class="line-break"></span>
+                                I'm still writing this... 
+                            </p>
+                        </div>
+                        <div class="scope-timeline-agenda">
+                            <div>
+                                <h4>Scope</h4>
+                                <p>Heuristic analysis, UX research, User testing, Interaction design, Illustration, Brand identity, Re-design</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Timeline</h4>
+                                <p>Sep 2023 - Oct 2023</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Agenda</h4>
+                                <ol class="agenda">
+                                    <li id="to-blue-bullet-1"><span class="agenda-text"><a href="#to-analysis" class="internal-link">Heuristic analysis</a></span></li>
+                                    <li id="to-blue-bullet-2"><span class="agenda-text"><a href="#to-prototypes" class="internal-link">Prototypes & user tests</a></span></li>
+                                    <li id="to-blue-bullet-3"><span class="agenda-text"><a href="#to-branding" class="internal-link">Branding</a></span></li>
+                                    <li><span class="agenda-text"><a href="#to-product" class="internal-link">Final product</a></span></li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
-                    <li class="landscape">
-                        <img src="assets/design/youtube/yt-system-map.png" alt="" class="img-width">
-                        <p class="caption">feature system map</p>
-                    </li>
-                    <li class="landscape">
-                        <img src="assets/design/youtube/yt-user-tests.png" alt="" class="img-width">
-                        <p class="caption">quotes from user tests</p>
-                    </li>
-                </ul>
+                </section>
+                <section>
+                    <div id="to-analysis" class="anchor-space"></div>
+                    <h5 id="h5-analysis">Heuristic analysis</h5>
+                </section>
+                <section>
+                    <div id="to-prototypes" class="anchor-space"></div>
+                    <h5 id="h5-to-prototype">Prototypes & user tests</h5>
+                </section>
+                <section>
+                    <div id="to-branding" class="anchor-space"></div>
+                    <h5 id="h5-to-branding">Branding</h5>
+                </section>
+                <section>
+                    <div id="to-product" class="anchor-space"></div>
+                    <h5 id="h5-to-product">Final product</h5>
+                    <ul class="grid white-grid">
+                        <li>
+                            <video autoplay loop muted playsinline class="prototype-style">
+                                <source src="assets/design/tutor-orial/to-1.mov" type="video/mp4">
+                            </video>
+                            <div class="more-info low-caption">
+                                <h4>Getting started</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="prototype-style" src="assets/design/tutor-orial/to-2.gif" alt="Description...">
+                            <div class="more-info low-caption">
+                                <h4>Online or in-person learning</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="prototype-style" src="assets/design/tutor-orial/to-3.gif" alt="Description...">
+                            <div class="more-info low-caption">
+                                <h4>Subject selection</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <video autoplay loop muted playsinline class="prototype-style">
+                                <source src="assets/design/tutor-orial/to-4.mov" type="video/mp4">
+                            </video>
+                            <div class="more-info low-caption">
+                                <h4>Learning style support</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <video autoplay loop muted playsinline class="prototype-style">
+                                <source src="assets/design/tutor-orial/to-5.mov" type="video/mp4">
+                            </video>
+                            <div class="more-info low-caption">
+                                <h4>Tutor selection</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="prototype-style" src="assets/design/tutor-orial/to-6.png" alt="Description...">
+                            <div class="more-info low-caption">
+                                <h4>Lesson booking</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="prototype-style" src="assets/design/tutor-orial/to-7.png" alt="Description...">
+                            <div class="more-info low-caption">
+                                <h4>Account creation</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="prototype-style" src="assets/design/tutor-orial/to-8.png" alt="Description...">
+                            <div class="more-info low-caption">
+                                <h4>404 page</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="project-banner">
+                    <img src="assets/design/tutor-orial/tutor-orial-banner-2.png" alt="Description...">
+                </div>
+                <div class="more-info fin-caption">
+                    <h4>Fin.</h4>
+                    <p>Love, Orial.</p>
+                </div>
             </section>
-            <section id="tutor-orial">
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-5.png" alt="Description...">
-                </div>
-                <div class="information-block">
-                    <h3>tutor orial</h3>
-                    <p class="project-description">
-                        The task was to re-imagine and improve the existing booking flow for Tutor Orial, a tutor booking service.
-                        <span class="line-break"></span>
-                        I wanted the product itself to be an example of engaging teaching, lead by a maskot called Orial who embodies the idea of <span class="emphasis">learning is fun</span> with various interesting interactions and an interface that challenges the visual and tonal conventions of academic platforms.
-                    </p>
-                </div>
-                <ul class="grid white-grid bigger-gap">
-                    <li>
-                        <video autoplay loop muted playsinline class="prototype-style bottom-space-2 img-width">
-                            <source src="assets/design/tutor-orial/to-1.mov" type="video/mp4">
-                        </video>
-                    </li>
-                    <li>
-                        <img src="assets/design/tutor-orial/to-2.gif" alt="" class="prototype-style bottom-space-2 img-width">
-                    </li>
-                    <li>
-                        <img src="assets/design/tutor-orial/to-3.gif" alt="" class="prototype-style bottom-space-2 img-width">
-                    </li>
-                    <!-- <li>
-                        <video autoplay loop muted playsinline class="prototype-style bottom-space-2 img-width">
-                            <source src="assets/design/tutor-orial/to-4.mov" type="video/mp4">
-                        </video>
-                    </li> -->
-                    <li>
-                        <video autoplay loop muted playsinline class="prototype-style bottom-space-2 img-width">
-                            <source src="assets/design/tutor-orial/to-5.mov" type="video/mp4">
-                        </video>
-                    </li>
-                    <!-- <li>
-                        <img src="assets/design/tutor-orial/to-6.png" alt="" class="prototype-style bottom-space-2 img-width">
-                    </li> -->
-                    <li>
-                        <img src="assets/design/tutor-orial/to-7.png" alt="" class="prototype-style img-width">
-                    </li>
-                    <li>
-                        <img src="assets/design/tutor-orial/to-8.png" alt="" class="prototype-style img-width">
-                    </li>
-                    <li class="landscape">
-                        <img src="assets/design/tutor-orial/to-mid-fi.png" alt="" class="img-width top-margin">
-                        <p class="caption">mid fidelity prototype</p>
-                    </li>
-                    <li class="landscape">
-                        <img src="assets/design/tutor-orial/to-heuristic-analysis.png" alt="" class="img-width top-margin">
-                        <p class="caption">heuristic analysis of previous flow</p>
-                    </li>
-                </ul>
+
+            <div class="project-divider less-space">
+                <img src="assets/illustration/project-dividers/project-divider-3.png" alt="Description...">
+            </div>
+
+            <!-- SMASH GYM -->
+            <section>
+                <section>
+                    <h3 id="smash">smash gym</h3>
+                    <div class="project-banner">
+                        <img src="assets/design/smash/no-bullshit-mural.png" alt="Description...">
+                    </div>
+                    <div class="intro-info">
+                        <div>
+                            <h4>Introduction</h4>
+                            <p class="project-intro">
+                                Smash is...
+                                <span class="line-break"></span>
+                                I'm still writing this... 
+                            </p>
+                        </div>
+                        <div class="scope-timeline-agenda">
+                            <div>
+                                <h4>Scope</h4>
+                                <p>Art direction, Brand identity, Illustration, Wall art, Social media</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Timeline</h4>
+                                <p>Aug 2020 - Sep 2020</p>
+                            </div>
+                            <div>
+                                <h4 class="space-top">Agenda</h4>
+                                <ol class="agenda">
+                                    <li><a href="#smash-branding" class="internal-link">Branding</a></li>
+                                    <li id="orange-bullet"><span class="agenda-text"><a href="#smash-interior" class="internal-link">Gym interior</a></span></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div id="smash-branding" class="anchor-space"></div>
+                    <h5 id="h5-smash-branding">Branding</h5>
+                    <ul class="grid white-grid">
+                        <li>
+                            <img src="assets/design/smash/logo-1.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Logo</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/logo-2.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Logo variation</h4>
+                            </div>
+                        </li>
+                        <li class="landscape">
+                            <img src="assets/design/smash/smash-icons.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Illustration style</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/early-bird.png" alt="Description..." class="img-width margin-bottom">
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/bring-mat.png" alt="Description..." class="img-width margin-bottom">
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/reception.png" alt="Description..." class="img-width margin-bottom">
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/bring-towel.png" alt="Description..." class="img-width margin-bottom">
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <div id="smash-interior" class="anchor-space"></div>
+                    <h5 id="h5-smash-interior">Gym interior</h5>
+                
+                    <ul class="grid">
+                        <li class="landscape">
+                            <img src="assets/design/smash/gym.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Fresh paint</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/entrance.jpg" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Entrance</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/stairs-sign.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Signage</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/keep-it-real.jpg" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Reception</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/office-cover.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Office privacy film</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/selfie-mural.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Mirror section</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/design/smash/smash-goals-mural.png" alt="Description..." class="img-width">
+                            <div class="more-info lower-caption">
+                                <h4>Weightlifting section</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </section>                
             </section>
-            <!-- <section id="procreate">
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-6.png" alt="Description...">
-                </div>
-                <div class="information-block">
-                    <h3>procreate feature</h3>
-                    <p class="project-description">
-                        This is a shop feature proposal for the Procreate app. As a seasoned Procreate user I've wished I could explore curated brushes and textures in-app instead of downloading packages from outside sources.
-                    </p>
-                </div>
-                <ul class="grid white-grid">
-                    <div class="wrapper wrapper-2">
-                        <li>
-                            <img src="assets/design/procreate/procreate-1.png" alt="" class="prototype-style">
-                            <p class="caption bottom-space">shop procreate brushes</p>
-                        </li>
-                        <li>
-                            <img src="assets/design/procreate/procreate-2.png" alt="" class="prototype-style">
-                            <p class="caption bottom-space">browse brushes</p>
-                        </li>
-                        <li>
-                            <img src="assets/design/procreate/procreate-3.png" alt="" class="prototype-style">
-                            <p class="caption">try brushes</p>
-                        </li>
-                    </div>
-                    <div class="wrapper wrapper-2">
-                        <li>
-                            <img src="assets/design/procreate/procreate-4.png" alt="" class="prototype-style">
-                            <p class="caption bottom-space">feature onboarding</p>
-                        </li>
-                        <li>
-                            <img src="assets/design/procreate/procreate-5.png" alt="" class="prototype-style">
-                            <p class="caption">instagram reel</p>
-                        </li>
-                        <li>
-                            <img src="assets/design/procreate/procreate-6.png" alt="" id="white-image">
-                        </li>
-                    </div>
-                </section> -->
-                <section id="smash">
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-4.png" alt="Description...">
-                </div>
-                <div class="information-block">
-                    <h3>smash gym</h3>
-                    <p class="project-description">
-                        Smash is a gym in Lebanon that was looking for a facelift.
-                        <span class="line-break"></span>
-                        I created the brand identity, illustrative & typographic styles to be applied across Smash’s social media posts, posters and interior vinyl wall decals.
-                    </p>
-                </div>
-                <ul class="grid white-grid no-captions">
-                    <li>
-                        <img src="assets/illustration/smash/logo-1.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/logo-2.png" alt="Description..." class="img-width">
-                    </li>
-                    <li class="landscape">
-                        <img src="assets/illustration/smash/smash-icons.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/no-bullshit-mural.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/selfie-mural.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/smash-goals-mural.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/office-cover.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/early-bird.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/bring-mat.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/bring-towel.png" alt="Description..." class="img-width">
-                    </li>
-                    <li>
-                        <img src="assets/illustration/smash/reception.png" alt="Description..." class="img-width">
-                    </li>
-                </ul>
-                <div class="project-divider">
-                    <img src="assets/illustration/project-dividers/project-divider-2.png" alt="Description...">
-                </div>
-                </ul>
-            </main>
-            <footer class="footer-nav">
-                <button class="footer-illustration"><a href="illustration.html">illustration</a></button>
-                <button class="footer-code"><a href="code.html">code</a></button>
-            </footer>
-        </body>
-    </html>
+
+            <div class="project-divider">
+                <img src="assets/illustration/project-dividers/project-divider-2.png" alt="Description...">
+            </div>
+
+        </main>
+        <footer class="footer-nav">
+            <button class="footer-illustration"><a href="illustration.html">illustration</a></button>
+            <button class="footer-code"><a href="code.html">code</a></button>
+        </footer>
+    </body>
+</html>

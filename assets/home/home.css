@@ -1,6 +1,14 @@
 :root {
-  --purple: rgb(164, 137, 243);
-  --green: rgb(66, 255, 119);
+  --code-green: rgb(66, 255, 119);
+  --drop-purple: rgb(164, 137, 243);
+  --drop-green: rgb(104, 228, 170);
+  --drop-yellow: rgb(255, 216, 75);
+  --drop-pink: rgb(230, 110, 192);
+  --drop-blue: rgb(101, 172, 255);
+  --to-blue-1: rgb(210, 234, 255);
+  --to-blue-2: rgb(0, 133, 255);
+  --to-blue-3: rgb(0, 91, 175);
+  --smash-orange: rgb(255, 170, 0);
 }
 
 html {
@@ -103,7 +111,7 @@ html {
 }
 
 #design:hover {
-  color: var(--purple);
+  color: var(--drop-purple);
 }
 
 #illustration:hover {
@@ -111,7 +119,7 @@ html {
 }
 
 #code:hover {
-  color: var(--green);
+  color: var(--code-green);
 }
 
 #top-bar {
@@ -159,13 +167,13 @@ body, html {
   width: 1em;
   height: 1em;
   background-color: black;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   pointer-events: none;
   z-index: 10000;
 }
 }
 
-@media only screen and (min-width: 2000px) {
+/* @media only screen and (min-width: 2000px) {
 
 #top-bar {
   padding-top: 4vh;
@@ -181,4 +189,4 @@ h1 {
 #projects {
   font-size: 5em;
 }
-}
+} */

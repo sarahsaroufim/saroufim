@@ -1,5 +1,14 @@
 h2 {
-    color: var(--green);
+    color: var(--code-green);
+}
+
+h5 {
+    color: white;
+    background-color: black;
+}
+
+.caption {
+    margin-bottom: 6em;
 }
 
 .grid-padding {
@@ -7,22 +16,47 @@ h2 {
     padding-right: 1.5em;
 }
 
+.anchor-space {
+    margin-top: 5em;
+}
+
+.agenda {
+    margin-bottom: -5em;
+}
+
 @media only screen and (min-width: 1024px) {
 
 .internal-link:hover {
-    color: var(--green);
+    color: var(--code-green);
 }
 
 .grid-padding {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 .bottom-space-2 {
     margin-bottom: 3em;
 }
 
+.anchor-space {
+    margin-top: 10em;
+}
+
+.agenda {
+    margin-bottom: -10em;
+}
+
 .custom-cursor {
-    background-color: var(--green);
+    background-color: var(--code-green);
+}
+
+.wrapper {
+    gap: 3em;
+}
+
+.landscape {
+    margin-left: 6em;
+    margin-right: 6em;
 }
 }

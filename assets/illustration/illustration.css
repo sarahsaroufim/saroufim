@@ -7,10 +7,6 @@ html {
     cursor: none;
 }
 
-.bottom-space {
-    margin-bottom: 5em;
-}
-
 .projects-button:hover,
 .me-button:hover {
     text-decoration: underline;
@@ -20,6 +16,7 @@ html {
 
 #table-of-contents {
     margin-top: 10em;
+    margin-bottom: 15em;
 }
 
 h2 {
@@ -31,8 +28,15 @@ h2 {
 
 h3 {
     font-size: 2em;
-    padding-bottom: 2em;
-    font-style: italic;
+    padding-left: 0.8em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 1em;
 }
 
 #illustration-projects {
@@ -41,11 +45,33 @@ h3 {
     padding-left: 1.5em;
 }
 
+.project-banner {
+    padding-bottom: 2em ;
+}
+
+.intro-info {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 4em;
+    line-height: 1.4em;
+}
+
+.project-intro {
+    max-width: 33em;
+    padding-bottom: 6em;
+}
+
+.scope-timeline-agenda {
+    max-width: 28em;
+}
+
+.space-top {
+    padding-top: 1.35em;
+}
+
 .caption {
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    font-size: 1.2em;
-    font-style: italic;
+    padding-top: 2em;
+    padding-left: 1.5em;
 }
 
 .grid {
@@ -55,18 +81,6 @@ h3 {
     color: white;
     padding-top: 6em;
     padding-bottom: 6em;
-}
-
-.information-block {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 3em;
-    max-width: 33em;
-}
-
-.project-description {
-    font-size: 1em;
-    line-height: 1.25em;
 }
 
 .white-grid {
@@ -86,7 +100,7 @@ h3 {
 
 .internal-link {
     text-decoration: underline;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.25em;
 }
 
 .sticker-screens {
@@ -107,6 +121,8 @@ h3 {
     text-align: center;
     opacity: 20%;
     transition: opacity 0.5s, visibility 0.5s;
+    padding-top: 4em;
+    padding-bottom: 3em;
   }
 
 .project-divider.visible {
@@ -117,6 +133,10 @@ h3 {
 .project-divider.hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+.less-space {
+    margin-top: -6em;
 }
 
 .footer-nav {
@@ -165,7 +185,10 @@ h3 {
 @media only screen and (min-width: 1024px) {
 
 h3 {
-    font-size: 2.5em;
+    font-size: 3em;
+    padding-left: 2em;
+    padding-top: 1em;
+    text-align: left;
 }
 
 .img-width {
@@ -173,7 +196,22 @@ h3 {
 }
 
 #illustration-projects {
-    padding-left: 2em;
+    padding-left: 3em;
+}
+
+.project-banner {
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 2em ;
+}
+
+.intro-info {
+    display: flex;
+    gap: 6em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 6em;
+    line-height: 1.55em;
 }
 
 .content:hover {
@@ -183,20 +221,18 @@ h3 {
 
 .caption {
     padding-left: 0;
-    font-size: 1.5em;
 }
 
 .grid {
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 2em;
-    padding-right: 2em;
-    gap: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    gap: 3em;
     grid-row-gap: 6em;
 }
 
 .wrapper {
     display: flex;
-    gap: 1em;
     width: auto;
     height: auto;
     grid-column: span 2;
@@ -206,25 +242,15 @@ h3 {
     grid-column: span 2;
 }
 
-.information-block {
-    padding-left: 4em;
-    padding-bottom: 4em;
-    max-width: 47em;
-}
-
-.project-description {
-    font-size: 1.4em;
-    line-height: 1.3em;
-}
-
 .internal-link:hover {
     text-decoration: none;
     color: darkgray;
     cursor: none;
 }
 
-#absolut-poster-1 {
-    display: block;
+#absolut-poster {
+    padding-left: 25em;
+    padding-right: 25em;
 }
 
 .sticker-screens {
@@ -242,12 +268,12 @@ h3 {
 }
 
 .footer-design:hover {
-    color: var(--purple);
+    color: var(--drop-purple);
     cursor: none;
 }
 
 .footer-code:hover {
-    color: var(--green);
+    color: var(--code-green);
     cursor: none;
 }
 
@@ -270,7 +296,7 @@ h3 {
 }
 }
 
-@media only screen and (min-width: 2000px) {
+/* @media only screen and (min-width: 2000px) {
 
 h2 {
     font-size: 5em;
@@ -288,10 +314,6 @@ h3,
     line-height: 1.5em;
 }
 
-.information-block {
-    max-width: 75em;
-}
-
 .project-divider {
     scale: 40%;
     padding-top: 20em;
@@ -301,4 +323,4 @@ h3,
 #back-to-top {
     font-size: 1.8em;
 }
-}
+} */
