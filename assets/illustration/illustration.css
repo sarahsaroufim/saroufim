@@ -182,6 +182,11 @@ h4 {
     z-index: 1000;
 }
 
+.wrapper {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 @media only screen and (min-width: 1024px) {
 
 h3 {
@@ -236,6 +241,9 @@ h3 {
     width: auto;
     height: auto;
     grid-column: span 2;
+    gap: 6em;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .grid .landscape {
