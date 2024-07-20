@@ -229,7 +229,9 @@ h5 {
 .mySlides7,
 .mySlides8,
 .mySlides9,
-.mySlides10 {
+.mySlides10,
+.mySlides11,
+.mySlides12 {
     display: none;
 }
 
@@ -242,7 +244,9 @@ h5 {
 .mySlides7:first-child,
 .mySlides8:first-child,
 .mySlides9:first-child,
-.mySlides10:first-child {
+.mySlides10:first-child,
+.mySlides11:first-child,
+.mySlides12:first-child {
     display: block;
 }
 

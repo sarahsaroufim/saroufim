@@ -1,4 +1,4 @@
-let slideIndex = [0,1,1,1,1,1,1,1,1,1,1];
+let slideIndex = [0,1,1,1,1,1,1,1,1,1,1,1,1];
 // add more "1" to the array if you need more slideshows
 
 
