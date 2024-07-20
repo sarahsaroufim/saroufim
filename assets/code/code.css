@@ -11,6 +11,10 @@ h5 {
     margin-bottom: 6em;
 }
 
+.gray {
+    color: darkgray;
+}
+
 .grid-padding {
     padding-left: 1.5em;
     padding-right: 1.5em;
