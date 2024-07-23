@@ -122,6 +122,10 @@ h5 {
     max-width: 28em;
 }
 
+.team {
+    line-height: 1.8em;
+}
+
 .agenda {
     list-style-type: none; /* remove default bullets */
     list-style-position: inside;
