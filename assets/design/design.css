@@ -421,4 +421,7 @@ h5 {
     gap: 4em;
 }
 
+.wider-caption {
+    max-width: 60em;
+}
 }
