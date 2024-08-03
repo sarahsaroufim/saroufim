@@ -15,6 +15,7 @@ function hideImage(imageId) {
 
 const sentences = [
     "psst... over here!",
+    "have we met?",
     "i'm a product designer & artist",
     "welcome to my portfolio",
     "i made this website for you",
@@ -37,6 +38,7 @@ const sentences = [
     "what can i know?",
     "what ought i to do?",
     "what may i hope?",
+    "i can see you",
     "it was all worth it in the end",
     "même un artichaut a du cœur",
     "i'm never shy, except for today",
@@ -46,10 +48,14 @@ const sentences = [
     "my parents are so proud of me",
     "i had a vision",
     "simply overthinking",
+    "i guess we'll find out",
+    "if you love something, let it go",
     "pour le meilleur et pour le pire",
     "in the business of alchemy",
     "i make the best of things",
     "someone will learn something from you",
+    "you say goodbye",
+    "and i say hello",
   ];
   
 let currentSentenceIndex = 0;
