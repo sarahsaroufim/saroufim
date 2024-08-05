@@ -51,12 +51,12 @@ h5 {
 }
 
 #h5-to-prototype {
-    background-color: var(--to-blue-2);
+    color: white;
+    background-color: var(--to-blue-3);
 }
 
 #h5-to-branding {
-    color: white;
-    background-color: var(--to-blue-3);
+    background-color: var(--to-blue-2);
 }
 
 #h5-to-product {
