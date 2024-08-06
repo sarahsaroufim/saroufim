@@ -47,7 +47,8 @@ h5 {
 }
 
 #h5-analysis {
-    background-color: var(--to-blue-1);
+    color: white;
+    background-color: black;
 }
 
 #h5-to-prototype {
@@ -60,8 +61,7 @@ h5 {
 }
 
 #h5-to-product {
-    color: white;
-    background-color: black;
+    background-color: var(--to-blue-1);
 }
 
 #h5-smash-branding {
@@ -166,7 +166,7 @@ h5 {
 }
 
 #to-blue-bullet-1 {
-    color: var(--to-blue-1)
+    color: var(--to-blue-3)
 }
 
 #to-blue-bullet-2 {
@@ -174,7 +174,7 @@ h5 {
 }
 
 #to-blue-bullet-3 {
-    color: var(--to-blue-3)
+    color: var(--to-blue-1)
 }
 
 #orange-bullet {
