@@ -276,10 +276,10 @@ h5 {
     display: none;
 }
 
-.grid {
+/* .grid {
     padding-bottom: 0;
     grid-row-gap: 0;
-}
+} */
 
 .lower-controls {
     top: 45%;
