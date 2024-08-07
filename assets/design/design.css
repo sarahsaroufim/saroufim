@@ -86,6 +86,10 @@ h5 {
     padding-top: 4em;
 }
 
+.space-bottom {
+    margin-bottom: 6em;
+}
+
 .intro-info {
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -93,7 +97,8 @@ h5 {
     line-height: 1.4em;
 }
 
-.more-info {
+.more-info,
+.caption-too {
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 6em;
@@ -101,12 +106,14 @@ h5 {
     max-width: 36em;
 }
 
-.low-caption {
-    margin-top: 0.5em;
+.caption-too {
+    padding-top: 2em;
+    padding-bottom: 0;
 }
 
-.lower-caption {
-    margin-top: 2em;
+.grid-padding {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .no-padding {
@@ -285,13 +292,9 @@ h5 {
     top: 45%;
 }
 
-.margin-bottom {
-    margin-bottom: 2em;
-}
-
 #smash-insta {
     padding-top: 3em;
-    padding-bottom: 3em;
+    margin-bottom: -6em;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -330,9 +333,17 @@ h5 {
     z-index: 1;
 }
 
-.low-caption,
-.lower-caption {
+.space-bottom {
+    margin-bottom: 0;
+}
+
+.caption-too {
     padding-left: 0;
+}
+
+.grid-padding {
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 .project-banner {
@@ -416,6 +427,7 @@ h5 {
 #smash-insta {
     padding-top: 6em;
     padding-bottom: 6em;
+    margin-bottom: 0;
     padding-left: 6em;
     padding-right: 6em;
     gap: 4em;

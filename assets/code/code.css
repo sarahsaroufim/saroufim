@@ -15,11 +15,6 @@ h5 {
     color: darkgray;
 }
 
-.grid-padding {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
 .anchor-space {
     margin-top: 4em;
 }
@@ -32,11 +27,6 @@ h5 {
 
 .internal-link:hover {
     color: var(--code-green);
-}
-
-.grid-padding {
-    padding-left: 6em;
-    padding-right: 6em;
 }
 
 .bottom-space-2 {
