@@ -14,7 +14,7 @@ function hideImage(imageId) {
 // cycle sentences
 
 const sentences = [
-    "psst... over here!",
+    "hey... over here!",
     "have we met?",
     "i'm a product designer & artist",
     "welcome to my portfolio",
