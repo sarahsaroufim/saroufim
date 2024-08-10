@@ -39,6 +39,7 @@ const sentences = [
     "what can i know?",
     "what ought i to do?",
     "what may i hope?",
+    "life's a party, crash it",
     "i can see you",
     "it was all worth it in the end",
     "même un artichaut a du cœur",
