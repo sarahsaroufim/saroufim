@@ -49,7 +49,6 @@ const sentences = [
     "we'd make a great team you and i",
     "my parents are so proud of me",
     "i had a vision",
-    "i had a feeling",
     "dracarys",
     "simply overthinking",
     "i guess we'll find out",
