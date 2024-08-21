@@ -28,6 +28,8 @@ const sentences = [
     "i know just what you mean",
     "not penny's boat",
     "a tattoo of a bird",
+    "stay here with me",
+    "we'll start a jazz band",
     "la vie n'est jamais aussi belle que dans tes rêves",
     "wait, you can see me?",
     "it's dangerous to go alone",
