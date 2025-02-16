@@ -16,6 +16,7 @@ const sentences = [
     "mostly confident",
     "i had a feeling",
     "i knew it",
+    "true love waits",
     "you have your lebanon and its dilemma",
     "i have my lebanon and its beauty",
     "i really care",
